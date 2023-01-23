@@ -1,0 +1,5 @@
+:root{
+    --bg-color: linear-gradient(45deg, rgba(254,149,117,1) 0%, rgba(249,73,78,1) 100%);
+    --before-color: linear-gradient(45deg, rgba(254, 149, 117, 0.8) 0%, rgba(249, 73, 78, 0.8) 100%);
+    --main-color:#fe9575;
+}

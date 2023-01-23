@@ -1,0 +1,95 @@
+@media (max-width:991px) {
+    .navbar-toggler{
+        background: var(--bg-color);
+        box-shadow:0 5px 15px rgba(0,0,0,0.3);
+        color:#fff;
+    }
+    .navbar-nav{
+        background: var(--bg-color);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+    .navbar .nav-item{
+        margin-left:0;
+        padding:5px 15px;
+    }
+    .navbar.navbar-shrink .navbar-toggler,
+    .navbar.navbar-shrink .navbar-nav{
+        background: var(--bg-color);
+    }
+    .banner_item h1{
+        font-size:50px;
+    }
+    #features .nav-pills .nav-link{
+        margin-right:50px;
+    }
+    #features .nav-pills .nav-link p{
+        font-size:14px;
+    }
+    #features .nav-pills .nav-link.active:before{
+        right:-50px;
+    }
+    .blog_left_img{
+        width:80px;
+        height:80px;
+    }
+}
+@media (max-width:767px){
+    .banner_item h1{
+        font-size:30px;
+    }
+    .banner_item p{
+        font-size:16px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    .banner_item{
+        margin-top:200px;
+    }
+    #features .nav-pills .nav-link{
+        padding:10px;
+    }
+    #features .nav-pills .nav-link h3{
+        font-size:16px;
+    }
+    #features .nav-pills .nav-link p{
+        font-size:11px;
+    }
+    #portfolio .card{
+        height:500px;
+    }
+    .team_item{
+        margin-bottom:30px;
+    }
+    .blog_left{
+        margin-top:30px;
+    }
+    .single_blog{
+        margin-top:30px;
+    }
+}
+@media (max-width: 575px){
+    .banner_item{
+        width:250px;
+        margin:auto;
+        margin-top:200px;
+    }
+    .banner_item h1{
+        font-size:18px;
+    }
+    #features .nav-pills .nav-link{
+        margin-right:0;
+    }
+    .img_tab img{
+        display:none;
+    }
+    .frequently_img img{
+        width:50%;
+    }
+    .about_text p{
+        font-size:12px;
+    }
+    .about_text .about_button a{
+        display:block;
+        margin-right:0;
+    }
+}
